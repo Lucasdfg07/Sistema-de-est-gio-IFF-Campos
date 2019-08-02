@@ -1,29 +1,5 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Esse sistema foi desenvolvido a fim de automatizar a inscrição de alunos ao processo de curso de estágio, conforme a necessidade do Instituto Federal Fluminense, entre o 5º e o 8º período para a conclusão dos cursos de licenciatura.
 
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+This sistem was developed to automatizate the student's ingress into the internship process according the Federal Fluminense Institute necessities, between the 5th and the 8th period to conclude the licenciature courses.
