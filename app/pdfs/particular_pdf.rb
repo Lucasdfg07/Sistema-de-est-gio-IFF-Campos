@@ -151,7 +151,7 @@ class ParticularPdf < Prawn::Document
           text "Campos dos Goytacazes, RJ, <u>#{I18n.l(DateTime.now.to_date, format: :long)}</u>", align: :center, :inline_format => true
 
           move_down 30
-          text "Concedente: <u>#{relatorio.representado_por}</u>", :inline_format => true
+          text "Concedente: _________________________________________________", :inline_format => true
 
           move_down 30
           text "IFFluminense <i>campus</i> Campos Centro: _______________________________________________________________________", :inline_format => true

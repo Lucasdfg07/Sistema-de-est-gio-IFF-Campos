@@ -21,7 +21,7 @@ class GuarusPdf < Prawn::Document
         move_down 30
         text "Período de <u>#{relatorio.periodo_de}</u> a <u>#{relatorio.periodo_a}</u>", align: :justify, :inline_format => true
 
-        move_down 250
+        move_down 350
         text "CLÁUSULA PRIMEIRA - DA FINALIDADE", align: :center, size: 16
         move_down 20
         text "Estágio Curricular Supervisionado compreende um conjunto de atividades que propiciam aos licenciandos situações e oportunidades reais de trabalho. É ato educativo escolar, supervisionado, desenvolvido em ambiente profissional correlato à área de atuação acadêmica do aluno em conformidade com a Lei N.º 11.788/08.
@@ -145,7 +145,7 @@ class GuarusPdf < Prawn::Document
         text "Campos dos Goytacazes, RJ, <u>#{I18n.l(DateTime.now.to_date, format: :long)}</u>", align: :center, :inline_format => true
 
         move_down 30
-        text "Concedente: <u>#{relatorio.representado_por}</u>", :inline_format => true
+        text "Concedente: _________________________________________________", :inline_format => true
 
         move_down 30
         text "IFFluminense <i>campus</i> Campos Centro: _______________________________________________________________________", :inline_format => true
